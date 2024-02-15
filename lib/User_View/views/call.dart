@@ -14,7 +14,7 @@ class MyCall extends StatelessWidget {
       appID:
           1152945642, // Fill in the appID that you get from ZEGOCLOUD Admin Console.
       appSign:
-          "0aad6bd0b9b281694515ff2c7f4d79a606f89841072fe0791636f1fb0785057d", // Fill in the appSign that you get from ZEGOCLOUD Admin Console.
+          , // Fill in the appSign that you get from ZEGOCLOUD Admin Console.
       userID: "${controller.userModel.value.userDetails!.userId}",
       userName: "${controller.userModel.value.userDetails!.name}",
       callID: callID,
